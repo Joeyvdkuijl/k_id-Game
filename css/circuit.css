@@ -1,0 +1,53 @@
+body, html{
+    background-color: #F8F8F8;
+    width: 110%;
+    height: auto;
+}
+#header{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.circuits{
+    height: 200px;
+    width: 200px;
+    background-color: #C9C9C9;
+}
+p{
+    margin: 0;
+    margin-top: 3px;
+}
+section{
+    /* margin-left: 10px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1em;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25%;
+}
+.myButton {
+	background-color:red;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:48px;
+	font-weight:bold;
+	padding:17px 46px;
+    text-decoration:none;
+    margin-left: 14%;
+    margin-top: 10%;
+}
+.myButton:hover {
+	background-color:red;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
